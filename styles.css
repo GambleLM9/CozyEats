@@ -35,8 +35,8 @@ li a{
     font-size: 2.5rem;
 }
 .pmenu{
-    width: 10%;
-    padding: 5px 10px 5px 10px;
+    width: 250px;
+    padding: 10px;
     background-color: rgb(228, 105, 105);
     color: white;
     margin: 0 auto;
@@ -49,10 +49,6 @@ li a{
     background-repeat: no-repeat;
     padding: 150px;
     text-align: center;
-}
-/*Main*/
-.main{
-    /* height: 750px; */
 }
 .main h3{
     text-align: center;
