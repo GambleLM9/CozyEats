@@ -7,63 +7,66 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <!--Header Section-->
-    <header>
-        <div class="container">
-            <h1>Cozy Eats</h1>
+    <div class="container">
+        <header class="header">
+            <h2>Cozy Eats</h2>
             <nav>
-                <ul class="nav-bar">
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#about">About Us</a></li>
-                    <li><a href="#menu">Menu</a></li>
-                    <li><a href="#contact">Contact</a></li>
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">Menu</a></li>
+                    <li><a href="#aboutus">About Us</a></li>
+                    <li><a href="#contactus">Contact</a></li>
                 </ul>
             </nav>
-        </div>
-    </header>
-    <!--Hero Section-->
-    <section id="home" class="hero">
-        <div class="hero-content">
-            <h2>Welcome!</h2>
-            <a class="explore" href="#menu">Explore our Menu</a>
-        </div>
-    </section>
-    <!--Menu Section-->
-    <section id="menu" class="menu-section">
-        <h2>Our Menu</h2>
-        <div class="menu-grid">
-            <div class="menu-item">
-                <img src="/images/classic-burger.jfif" alt="A Hamburger">
-                <h3>Classic Burger</h3>
-                <p>$9.99</p>
-            </div>
+        </header>
 
-            <div class="menu-item">
-                <img src="/images/pasta.jpg" alt="Some Pasta">
-                <h3>Pasta Primavera</h3>
-                <p>$12.99</p>
+        <section class="hero">
+            <div class="welcome">
+                <h1>Welcome to Cozy Eats!</h1>
+                <div class="menubutton">
+                    <p class="pmenu">Explore Menu</p>
+                </div>
             </div>
+        </section>
 
-            <div class="menu-item">
-                <img src="/images/salad.jpg" alt="Salad">
-                <h3>Caesar Salad</h3>
-                <p>$8.99</p>
+        <section class="main">
+            <h3>Our Menu</h3>
+            <div class="menucontainer">
+                <div class="menuitem">
+                    <img src="images/pasta.jpg" alt="Pasta">
+                    <h4>Pasta Primavera</h4>
+                    <p>$12.99</p>
+                </div>
+
+                <div class="menuitem">
+                    <img src="images/classic-burger.jfif" alt="Burger">
+                    <h4>Classic Burger</h4>
+                    <p>$9.99</p>
+                </div>
+
+                <div class="menuitem">
+                    <img src="images/salad.jpg" alt="Salad">
+                    <h4>Caesar Salad</h4>
+                    <p>$8.99</p>
+                </div>
             </div>
-        </div>
-    </section>
-    <!--About Section-->
-    <section id="about" class="about-section">
-        <h2>About Us</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum consectetur eum error accusantium quam a maxime perferendis iusto, fugiat rem, excepturi adipisci consequuntur doloribus quibusdam corrupti atque, illo totam! Rem inventore praesentium doloribus incidunt quo ab laudantium qui, eveniet optio hic assumenda quasi repellat, fuga expedita voluptates enim minima libero?</p>
-    </section>
-    <!--Contact Section-->
-    <section id="contact" class="contact-section">
-        <h2>Contact Us</h2>
-        <p></p>
-    </section>
-    <!--Footer-->
-    <footer>
-        &copy; CozyEats 2024 All Rights Reserved
-    </footer>
+        </section>
+
+        <section class="aboutus">
+            <h3 id="aboutus">About Us</h3>
+            <p>At Cozy Eats, we bring you the best comfort food in town, served in a warm and welcoming atmosphere. Our chefs use fresh local ingredients to craft mouth-watering dishes you'll love.</p>
+        </section>
+
+        <section class="contactus">
+            <h3 id="contactus">Contact Us</h3>
+            <p>123 Cozy Lane, Foodville, USA</p>
+            <p>Email: contact@cozyeats.com</p>
+            <p>Phone: (123) 456-7890</p>
+        </section>
+
+        <footer class="footer">
+            <p>&copy;2024 Cozy Eats. All rights reserved.</p>
+        </footer>
+    </div>
 </body>
 </html>
